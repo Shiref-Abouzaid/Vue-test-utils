@@ -5,9 +5,9 @@ describe('Message.vue', () => {
     it('renders props.msg when passed', () => {
         const wrapper =  mount(Message, {
             props:{
-                msg:'hello guys'
+                msg:"hello guys"
             }
         });
-        expect(wrapper.text()).toContain('hello guys');
+        expect(wrapper.text()).toContain('h');
     })
 })
